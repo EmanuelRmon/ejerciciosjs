@@ -17,7 +17,7 @@ function calcularMatricula() {
       valorFinal -= valorMatricula * 0.50;
     }
 
-    alert("El valor de la matriocula es $" + valorFinal.toLocaleString('es-CO'));
+    alert("El valor de la matriocula es $" + valorFinal);
   }
 
   window.onload = calcularMatricula;
