@@ -1,8 +1,8 @@
 function calcularSuma() {
-    let n = parseInt(prompt("Introduce un número n:"));
+    let n = parseInt(prompt("Introduce un numero n:"));
 
     if (isNaN(n) || n <= 0) {
-      alert("Por favor, introduce un número válido mayor que 0.");
+      alert("introduce un numero mayor que 0");
       return;
     }
 
@@ -11,6 +11,6 @@ function calcularSuma() {
       suma += i;
     }
 
-    alert("La suma de los números del 1 al " + n + " es: " + suma);
+    alert("la suma de los numeros del 1 al " + n + " es: " + suma);
   }
   window.onload = calcularSuma;
