@@ -5,7 +5,7 @@ function verificarPremio() {
 
     let premio = "";
 
-    if (isNaN(edad)) {
+    if (isNaN(edad)|| edad<=0) {
       alert("ingresa una edad válida");
       return;
     }
