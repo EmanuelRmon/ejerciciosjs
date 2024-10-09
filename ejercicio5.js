@@ -17,9 +17,9 @@ function mostrarTablaMultiplicar() {
       total += resultado;
     }
 
-    alert("Tabla de multiplicar del " + numero + " hasta " + limite + ":\n\n" + resultadoTabla);
+    alert("Tabla de multiplicar dell " + numero + " hasta " + limite + ":\n\n" + resultadoTabla);
 
-    alert("El total de las multiplicaciones es: " + total);
+    alert("El total de los resultadosss es: " + total);
   }
 
   window.onload = mostrarTablaMultiplicar;
