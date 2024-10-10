@@ -1,3 +1,4 @@
+// este no lo entendi muy bien profe//
 function seleccionarProductos() {
     // Definir el menú con un array de objetos
     let menu = [

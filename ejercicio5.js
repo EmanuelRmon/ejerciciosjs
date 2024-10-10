@@ -22,4 +22,4 @@ function mostrarTablaMultiplicar() {
     alert("El total de los resultadosss es: " + total);
   }
 
-  window.onload = mostrarTablaMultiplicar;
+  mostrarTablaMultiplicar()

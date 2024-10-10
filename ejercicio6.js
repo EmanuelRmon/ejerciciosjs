@@ -20,4 +20,4 @@ function calcularMatricula() {
     alert("El valor de la matriocula es $" + valorFinal);
   }
 
-  window.onload = calcularMatricula;
+  calcularMatricula()
