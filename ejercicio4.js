@@ -38,4 +38,4 @@ function seleccionarProductos() {
     alert("total a pagar: $" + total);
   }
 
-  window.onload = seleccionarProductos;
+  seleccionarProductos()

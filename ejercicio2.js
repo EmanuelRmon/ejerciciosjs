@@ -12,4 +12,4 @@ function determinarParImpar() {
       alert("El numero " + numero + " es impar");
     }
   }
-window.onload = determinarParImpar;
+  determinarParImpar()

@@ -28,4 +28,4 @@ function verificarPremio() {
 
     alert(premio);
   }
-  window.onload = verificarPremio;
+  verificarPremio()

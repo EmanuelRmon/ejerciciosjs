@@ -13,4 +13,4 @@ function calcularSuma() {
 
     alert("la suma de los numeros del 1 al " + n + " es: " + suma);
   }
-  window.onload = calcularSuma;
+  calcularSuma()
