@@ -33,7 +33,6 @@ const elementosCocina = [
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4VlNNZOrbLiSB-iHJ3xQhcl5RI3XIJFgzkg&s" }
 ];
 
-const productos = document.getElementById("productos");
 let totalProductos = 0;
 let subtotal = 0;
 const descuento = 5;
